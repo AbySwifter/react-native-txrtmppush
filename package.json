@@ -1,0 +1,23 @@
+{
+  "name": "react-native-txrtmppush",
+  "version": "0.0.1",
+  "description": "this is a plug-in about txlive.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanMoMo/react-native-txrtmppush.git"
+  },
+  "keywords": [
+    "react",
+    "txpusher"
+  ],
+  "author": "Yongxu.Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanMoMo/react-native-txrtmppush/issues"
+  },
+  "homepage": "https://github.com/AlanMoMo/react-native-txrtmppush#readme"
+}

@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		094891401DC0AEAE0056F708 /* react_native_txrtmppush.m in Sources */ = {isa = PBXBuildFile; fileRef = 0948913F1DC0AEAE0056F708 /* react_native_txrtmppush.m */; };
-		094891411DC0AEAE0056F708 /* react_native_txrtmppush.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0948913E1DC0AEAE0056F708 /* react_native_txrtmppush.h */; };
+		0902298B1DC19799007DD5AF /* TXRTMPSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0902298A1DC19799007DD5AF /* TXRTMPSDK.framework */; };
+		0948914F1DC0AF0C0056F708 /* RCTConvert+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = 094891481DC0AF0C0056F708 /* RCTConvert+Options.m */; };
+		094891501DC0AF0C0056F708 /* RNTXRTMPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0948914A1DC0AF0C0056F708 /* RNTXRTMPManager.m */; };
+		094891511DC0AF0C0056F708 /* RNTXRTMPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0948914C1DC0AF0C0056F708 /* RNTXRTMPModel.m */; };
+		094891521DC0AF0C0056F708 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 0948914E1DC0AF0C0056F708 /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,16 +21,22 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				094891411DC0AEAE0056F708 /* react_native_txrtmppush.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0902298A1DC19799007DD5AF /* TXRTMPSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TXRTMPSDK.framework; sourceTree = "<group>"; };
 		0948913B1DC0AEAE0056F708 /* libreact-native-txrtmppush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libreact-native-txrtmppush.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0948913E1DC0AEAE0056F708 /* react_native_txrtmppush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = react_native_txrtmppush.h; sourceTree = "<group>"; };
-		0948913F1DC0AEAE0056F708 /* react_native_txrtmppush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = react_native_txrtmppush.m; sourceTree = "<group>"; };
+		094891471DC0AF0C0056F708 /* RCTConvert+Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+Options.h"; sourceTree = "<group>"; };
+		094891481DC0AF0C0056F708 /* RCTConvert+Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+Options.m"; sourceTree = "<group>"; };
+		094891491DC0AF0C0056F708 /* RNTXRTMPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTXRTMPManager.h; sourceTree = "<group>"; };
+		0948914A1DC0AF0C0056F708 /* RNTXRTMPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTXRTMPManager.m; sourceTree = "<group>"; };
+		0948914B1DC0AF0C0056F708 /* RNTXRTMPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTXRTMPModel.h; sourceTree = "<group>"; };
+		0948914C1DC0AF0C0056F708 /* RNTXRTMPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTXRTMPModel.m; sourceTree = "<group>"; };
+		0948914D1DC0AF0C0056F708 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		0948914E1DC0AF0C0056F708 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0902298B1DC19799007DD5AF /* TXRTMPSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +54,7 @@
 		094891321DC0AEAE0056F708 = {
 			isa = PBXGroup;
 			children = (
+				0902298A1DC19799007DD5AF /* TXRTMPSDK.framework */,
 				0948913D1DC0AEAE0056F708 /* react-native-txrtmppush */,
 				0948913C1DC0AEAE0056F708 /* Products */,
 			);
@@ -60,8 +71,14 @@
 		0948913D1DC0AEAE0056F708 /* react-native-txrtmppush */ = {
 			isa = PBXGroup;
 			children = (
-				0948913E1DC0AEAE0056F708 /* react_native_txrtmppush.h */,
-				0948913F1DC0AEAE0056F708 /* react_native_txrtmppush.m */,
+				094891471DC0AF0C0056F708 /* RCTConvert+Options.h */,
+				094891481DC0AF0C0056F708 /* RCTConvert+Options.m */,
+				094891491DC0AF0C0056F708 /* RNTXRTMPManager.h */,
+				0948914A1DC0AF0C0056F708 /* RNTXRTMPManager.m */,
+				0948914B1DC0AF0C0056F708 /* RNTXRTMPModel.h */,
+				0948914C1DC0AF0C0056F708 /* RNTXRTMPModel.m */,
+				0948914D1DC0AF0C0056F708 /* UIImage+Color.h */,
+				0948914E1DC0AF0C0056F708 /* UIImage+Color.m */,
 			);
 			path = "react-native-txrtmppush";
 			sourceTree = "<group>";
@@ -124,7 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				094891401DC0AEAE0056F708 /* react_native_txrtmppush.m in Sources */,
+				0948914F1DC0AF0C0056F708 /* RCTConvert+Options.m in Sources */,
+				094891521DC0AF0C0056F708 /* UIImage+Color.m in Sources */,
+				094891511DC0AF0C0056F708 /* RNTXRTMPModel.m in Sources */,
+				094891501DC0AF0C0056F708 /* RNTXRTMPManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +243,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = F8A3GH6Q4W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)/../ios/TXRTMPSDK.framework/**",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -233,6 +259,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = F8A3GH6Q4W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)/../ios/TXRTMPSDK.framework/**",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -258,6 +290,7 @@
 				094891461DC0AEAE0056F708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "733251BE0609D743F2E3D108E563175AF91671BD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "91492BE9D8A91AAC0B484055D6DB47BED788AF48" : 9223372036854775807,
+    "733251BE0609D743F2E3D108E563175AF91671BD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B4F99A7E-36AB-4D69-953A-3F1E9D0E9766",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "91492BE9D8A91AAC0B484055D6DB47BED788AF48" : "..",
+    "733251BE0609D743F2E3D108E563175AF91671BD" : "react-native-txrtmppush\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "react-native-txrtmppush",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/react-native-txrtmppush.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AlanMoMo\/react-native-txrtmppush.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "733251BE0609D743F2E3D108E563175AF91671BD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.dragongap.cn\/Bear\/TXRTMP_ForExample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "91492BE9D8A91AAC0B484055D6DB47BED788AF48"
+    }
+  ]
+}

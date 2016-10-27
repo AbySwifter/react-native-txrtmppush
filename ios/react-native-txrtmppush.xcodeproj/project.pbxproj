@@ -12,6 +12,16 @@
 		094891501DC0AF0C0056F708 /* RNTXRTMPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0948914A1DC0AF0C0056F708 /* RNTXRTMPManager.m */; };
 		094891511DC0AF0C0056F708 /* RNTXRTMPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0948914C1DC0AF0C0056F708 /* RNTXRTMPModel.m */; };
 		094891521DC0AF0C0056F708 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 0948914E1DC0AF0C0056F708 /* UIImage+Color.m */; };
+		09FDE0D31DC1B78C0086B2AA /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FDE0D21DC1B78C0086B2AA /* VideoToolbox.framework */; };
+		09FDE0D51DC1B7970086B2AA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FDE0D41DC1B7970086B2AA /* SystemConfiguration.framework */; };
+		09FDE0D71DC1B7A60086B2AA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FDE0D61DC1B7A60086B2AA /* CoreTelephony.framework */; };
+		09FDE0D91DC1B7AD0086B2AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FDE0D81DC1B7AD0086B2AA /* AVFoundation.framework */; };
+		09FDE0DB1DC1B7B60086B2AA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FDE0DA1DC1B7B60086B2AA /* CoreMedia.framework */; };
+		09FDE0DD1DC1B7C40086B2AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FDE0DC1DC1B7C40086B2AA /* CoreGraphics.framework */; };
+		09FDE0DF1DC1B7D70086B2AA /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FDE0DE1DC1B7D70086B2AA /* libstdc++.tbd */; };
+		09FDE0E11DC1B7E20086B2AA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FDE0E01DC1B7E20086B2AA /* libz.tbd */; };
+		09FDE0E31DC1B7F00086B2AA /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FDE0E21DC1B7F00086B2AA /* libiconv.tbd */; };
+		09FDE0E51DC1B7F90086B2AA /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FDE0E41DC1B7F90086B2AA /* libresolv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +47,16 @@
 		0948914C1DC0AF0C0056F708 /* RNTXRTMPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTXRTMPModel.m; sourceTree = "<group>"; };
 		0948914D1DC0AF0C0056F708 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		0948914E1DC0AF0C0056F708 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		09FDE0D21DC1B78C0086B2AA /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		09FDE0D41DC1B7970086B2AA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		09FDE0D61DC1B7A60086B2AA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		09FDE0D81DC1B7AD0086B2AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		09FDE0DA1DC1B7B60086B2AA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		09FDE0DC1DC1B7C40086B2AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09FDE0DE1DC1B7D70086B2AA /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		09FDE0E01DC1B7E20086B2AA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		09FDE0E21DC1B7F00086B2AA /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		09FDE0E41DC1B7F90086B2AA /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +64,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09FDE0E51DC1B7F90086B2AA /* libresolv.tbd in Frameworks */,
+				09FDE0E31DC1B7F00086B2AA /* libiconv.tbd in Frameworks */,
+				09FDE0E11DC1B7E20086B2AA /* libz.tbd in Frameworks */,
+				09FDE0DF1DC1B7D70086B2AA /* libstdc++.tbd in Frameworks */,
+				09FDE0DD1DC1B7C40086B2AA /* CoreGraphics.framework in Frameworks */,
+				09FDE0DB1DC1B7B60086B2AA /* CoreMedia.framework in Frameworks */,
+				09FDE0D91DC1B7AD0086B2AA /* AVFoundation.framework in Frameworks */,
+				09FDE0D71DC1B7A60086B2AA /* CoreTelephony.framework in Frameworks */,
+				09FDE0D51DC1B7970086B2AA /* SystemConfiguration.framework in Frameworks */,
+				09FDE0D31DC1B78C0086B2AA /* VideoToolbox.framework in Frameworks */,
 				0902298B1DC19799007DD5AF /* TXRTMPSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +87,7 @@
 				0902298A1DC19799007DD5AF /* TXRTMPSDK.framework */,
 				0948913D1DC0AEAE0056F708 /* react-native-txrtmppush */,
 				0948913C1DC0AEAE0056F708 /* Products */,
+				09FDE0D11DC1B78C0086B2AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +112,23 @@
 				0948914E1DC0AF0C0056F708 /* UIImage+Color.m */,
 			);
 			path = "react-native-txrtmppush";
+			sourceTree = "<group>";
+		};
+		09FDE0D11DC1B78C0086B2AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09FDE0E41DC1B7F90086B2AA /* libresolv.tbd */,
+				09FDE0E21DC1B7F00086B2AA /* libiconv.tbd */,
+				09FDE0E01DC1B7E20086B2AA /* libz.tbd */,
+				09FDE0DE1DC1B7D70086B2AA /* libstdc++.tbd */,
+				09FDE0DC1DC1B7C40086B2AA /* CoreGraphics.framework */,
+				09FDE0DA1DC1B7B60086B2AA /* CoreMedia.framework */,
+				09FDE0D81DC1B7AD0086B2AA /* AVFoundation.framework */,
+				09FDE0D61DC1B7A60086B2AA /* CoreTelephony.framework */,
+				09FDE0D41DC1B7970086B2AA /* SystemConfiguration.framework */,
+				09FDE0D21DC1B78C0086B2AA /* VideoToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +294,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(SRCROOT)/../ios/TXRTMPSDK.framework/**",
 				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";
@@ -262,7 +309,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(SRCROOT)/../ios/TXRTMPSDK.framework/**",
 				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";

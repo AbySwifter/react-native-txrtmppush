@@ -87,13 +87,13 @@ RCT_EXPORT_METHOD(playTXBGMWithUrl:(NSString*)url){
 
 #ifdef DEBUG
   // Debug 模式的代码...
-  NSString* documentPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-  NSString* musicDocumentPath = [documentPath stringByAppendingPathComponent:@"mySky.mp3"];
-  NSFileManager* manager = [NSFileManager defaultManager];
-  if ([manager fileExistsAtPath:musicDocumentPath]) {
-    url = musicDocumentPath;
-    NSLog(@"url:%@",musicDocumentPath);
-  }
+//  NSString* documentPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+//  NSString* musicDocumentPath = [documentPath stringByAppendingPathComponent:@"mySky.mp3"];
+//  NSFileManager* manager = [NSFileManager defaultManager];
+//  if ([manager fileExistsAtPath:musicDocumentPath]) {
+//    url = musicDocumentPath;
+//    NSLog(@"url:%@",musicDocumentPath);
+//  }
 #else
   // Release 模式的代码...
 #endif

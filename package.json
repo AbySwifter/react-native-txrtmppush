@@ -1,6 +1,6 @@
 {
   "name": "react-native-txrtmppush",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "this is a plug-in about txlive.",
   "main": "index.js",
   "scripts": {
